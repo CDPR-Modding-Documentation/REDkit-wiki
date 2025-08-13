@@ -31,28 +31,29 @@
 
 #### Fixes
 
-Fixed an issue where the tangent calculator didn't work properly for some vertices during uncooking.
-Fixed an issue where the Vertex paint tool wouldn’t save changes.
-Various UI fixes:
-Fixed an issue where dragging panels in the Scene Editor would cause a crash.
-Fixed an issue where the editor would crash when loading a level while having a floating toolbar.
-Fixed an issue where the Item Select dialogue box would not close properly.
-The gizmo will now use thicker debug lines.
-Improved the check icon in the PropertyGrid.
+**Various UI fixes:**
+* Fixed an issue where dragging panels in the Scene Editor would cause a crash.
+* Fixed an issue where the editor would crash when loading a level while having a floating toolbar.
+* Fixed an issue where the Item Select dialogue box would not close properly.
+* The gizmo will now use thicker debug lines.
+* Improved the check icon in the PropertyGrid.
 
-Fixed an issue where the .xml parser error would not show the correct file path.
-Various Scene Editor fixes:
+**Various Scene Editor fixes:**
 Saving will now always teleport to the first node.
 Fixed a crash on deleting any pause event on Timeline.
 Fixed a Scene Editor crash when switching from Edit Camera Mode to Free Camera Mode and trying to edit the camera from the Properties page.
 
-Fixed an issue where the minimap generation stretched output images.
-Fixed an issue where loading game definitions with standard templates would crash under certain conditions.
-Fixes for revert and drag-and-drop actions in Journal Editor.
-Fixed splash screen sizing for the game.
-Fixed an issue where the world edit gizmo could get stuck when pressing two shortcut keys.
-Updated the Wwise license acquisition steps.
-Fixed an issue where searching for a quest graph block by name criteria didn't work properly.
+**Miscellaneous fixes:**
+* Fixed an issue where the tangent calculator didn't work properly for some vertices during uncooking.
+* Fixed an issue where the Vertex paint tool wouldn’t save changes.
+* Fixed an issue where the .xml parser error would not show the correct file path.
+* Fixed an issue where the minimap generation stretched output images.
+* Fixed an issue where loading game definitions with standard templates would crash under certain conditions.
+* Fixes for revert and drag-and-drop actions in Journal Editor.
+* Fixed splash screen sizing for the game.
+* Fixed an issue where the world edit gizmo could get stuck when pressing two shortcut keys.
+* Updated the Wwise license acquisition steps.
+* Fixed an issue where searching for a quest graph block by name criteria didn't work properly.
 
 ### Patch 2
 
