@@ -1,9 +1,19 @@
-# Changelog
+---
+description: >-
+  All patches released for The Witcher 3 REDkit since its release. Last updated
+  13 August 2025
+---
+
+# REDkit Changelog
+
+[Back to Home](./)
+
 ### Patch 3
 
 #### Features
 
 **Scene Editor:**
+
 * Double-clicking on an empty animation event will now open AnimBrowser.
 * AnimBrowser will now open on double-click.
 * Double-clicking on the timeline will now create an event for the clicked track. If it’s an animation, it will open the AnimBrowser.
@@ -18,6 +28,7 @@
 * Fixed issues with the Undo Manager.
 
 **Miscellaneous**
+
 * Added an option to create .xml files in Asset Browser with correct encoding.
 * The “World” tab will be updated with the current World name.
 * Updated the Blender Plugin:
@@ -28,10 +39,10 @@
 * Added shortcuts to move plane and select plane for the world edit gizmo (press X and Y to select the XY plane).
 * Added a button to set default lipsync and audio overwrite paths in scenes.
 
-
 #### Fixes
 
 **Various UI fixes:**
+
 * Fixed an issue where dragging panels in the Scene Editor would cause a crash.
 * Fixed an issue where the editor would crash when loading a level while having a floating toolbar.
 * Fixed an issue where the Item Select dialogue box would not close properly.
@@ -39,11 +50,13 @@
 * Improved the check icon in the PropertyGrid.
 
 **Various Scene Editor fixes:**
+
 * Saving will now always teleport to the first node.
 * Fixed a crash on deleting any pause event on Timeline.
 * Fixed a Scene Editor crash when switching from Edit Camera Mode to Free Camera Mode and trying to edit the camera from the Properties page.
 
 **Miscellaneous fixes:**
+
 * Fixed an issue where the tangent calculator didn't work properly for some vertices during uncooking.
 * Fixed an issue where the Vertex paint tool wouldn’t save changes.
 * Fixed an issue where the .xml parser error would not show the correct file path.
@@ -57,11 +70,11 @@
 
 ### Patch 2
 
-* [Experimental] Added an option to start the editor in dark mode (View → Settings → Editor Configuration → Editor → startInDarkMode).
+* \[Experimental] Added an option to start the editor in dark mode (View → Settings → Editor Configuration → Editor → startInDarkMode).
 * REDkit is now shipped with pre-generated thumbnails. Users can update them for checked-out and added assets.
 * You can now use a .jpg image as a thumbnail when publishing a mod.
 * Added an option to disable the automatic reopening of resource editors that were open when the editor was last closed.
-* Added an option in Scene Editor to generate all misssing lipsync and voiceover. It will use Windows' text to speech feature for voiceover, lipsync generation is possible if the audio is generated and the * Editor knows the location of the Blender Plugin.
+* Added an option in Scene Editor to generate all misssing lipsync and voiceover. It will use Windows' text to speech feature for voiceover, lipsync generation is possible if the audio is generated and the \* Editor knows the location of the Blender Plugin.
 * Added the languages that were missing after cooking strings.
 * Added scrollbars for the "Entry Attributes" section in the Color tab in the Entity Editor.
 * Added support for additional virtual directories. REDkit can now attach additional directories besides the uncook depot (read-only). Essentially, your mod project can now depend on another mod.
