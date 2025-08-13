@@ -39,9 +39,9 @@
 * Improved the check icon in the PropertyGrid.
 
 **Various Scene Editor fixes:**
-Saving will now always teleport to the first node.
-Fixed a crash on deleting any pause event on Timeline.
-Fixed a Scene Editor crash when switching from Edit Camera Mode to Free Camera Mode and trying to edit the camera from the Properties page.
+* Saving will now always teleport to the first node.
+* Fixed a crash on deleting any pause event on Timeline.
+* Fixed a Scene Editor crash when switching from Edit Camera Mode to Free Camera Mode and trying to edit the camera from the Properties page.
 
 **Miscellaneous fixes:**
 * Fixed an issue where the tangent calculator didn't work properly for some vertices during uncooking.
