@@ -17,13 +17,13 @@
 * Viewport FOV will apply to the active camera on change (the edited camera in Edit Mode or to the free camera in Free Mode).
 * Fixed issues with the Undo Manager.
 
+**Miscellaneous**
 * Added an option to create .xml files in Asset Browser with correct encoding.
 * The “World” tab will be updated with the current World name.
 * Updated the Blender Plugin:
 * Added pose bone weights for different NPCs, it can be selected during lipsync generation.
 * Added interpolation easing while generating a lipsync.
 * Fixed issues with installing the plugin on Blender 4.
-
 * Updated the credits in the “About” section.
 * Added shortcuts to move plane and select plane for the world edit gizmo (press X and Y to select the XY plane).
 * Added a button to set default lipsync and audio overwrite paths in scenes.
